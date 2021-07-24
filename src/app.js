@@ -29,7 +29,7 @@ app.get("/about", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     helpText:
-      "Head over to Weather section.Type any location and hit the search button. ",
+      "Head over to Weather section. Type any location and hit the search button. ",
     title: "Help",
     name: "Muskan Gulati",
   });

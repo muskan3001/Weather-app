@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
 body {
   color: #333333;
   font-family: arial;
@@ -6,30 +7,68 @@ body {
   padding: 16px 16px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 95vh;
+  background-image: url(../img/bg.png);
+  background-size: cover;
 }
 .main-content {
   flex-grow: 1;
 }
 footer {
-  color: #888888;
+  color: #e1d13b;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
+  font-size: 30px;
+}
+footer a {
+  color: #e1d13b;
 }
 header {
   margin-top: 50px;
   margin-bottom: 48px;
+  color: #e1d13b;
 }
 h1 {
   font-size: 64px;
   margin-bottom: 16px;
 }
 header a {
-  color: #888888;
+  color: #fff;
   margin-right: 16px;
-  text-decoration: nones;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 24px;
+  font-family: "Uchen", serif;
+}
+input {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  font-size: 30px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+
+  color: #e1d13b;
+  padding: 11px;
+  font-size: 30px;
+  background-color: #716773;
+}
+#message-1 {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  font-family: "Uchen", serif;
+}
+#message-2 {
+  font-size: 25px;
+  color: #000;
+  font-weight: 800;
+  font-family: "Uchen", serif;
 }

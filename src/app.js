@@ -16,14 +16,14 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(pbpath));
 app.get("", (req, res) => {
   res.render("index", {
-    title: "weather app",
-    name: "Muskan",
+    title: "Weather Bug",
+    name: "Muskan Gulati",
   });
 });
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "this is about section",
-    name: "Muskan",
+    title: "About Weather Bug",
+    name: "Muskan Gulati",
   });
 });
 app.get("/help", (req, res) => {
@@ -31,7 +31,7 @@ app.get("/help", (req, res) => {
     helpText:
       "Head over to Weather section.Type any location and hit the search button. ",
     title: "Help",
-    name: "Muskan",
+    name: "Muskan Gulati",
   });
 });
 app.get("/weather", (req, res) => {
@@ -62,15 +62,15 @@ app.get("/weather", (req, res) => {
 app.get("/help/*", (req, res) => {
   res.render("404", {
     title: "404",
-    name: "muskan",
-    errorMessage: "page not found",
+    name: "Muskan Gulati",
+    errorMessage: "Page Not Found",
   });
 });
 
 app.get("*", (req, res) => {
   res.render("404", {
     title: 404,
-    name: "muskan",
+    name: "Muskan Gulati",
     errorMessage: "this cannot be found",
   });
 });
